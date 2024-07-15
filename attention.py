@@ -69,8 +69,6 @@ class SpatialAttention(nn.Module):
     def forward(self, o, p):
         p_conv1 = self.conv1(p)
         p_att = torch.sigmoid(p_conv1)
-
-        # 在原始特征图乘以注意力机制
         o_weighted = o * p_att
         out = self.gamma * (self.conv2(o_weighted)) + o
 
