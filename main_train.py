@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jul  3 11:06:19 2021
-
-@author: leeh43
-"""
 
 from monai.utils import set_determinism
 from monai.transforms import AsDiscrete
