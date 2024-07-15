@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr 10 15:04:06 2022
-
-@author: leeh43
-"""
 
 from typing import Tuple
 
